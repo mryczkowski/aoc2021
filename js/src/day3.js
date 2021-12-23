@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 function readInput() {
-    const buf = fs.readFileSync(path.resolve('src/day3/day3Input.txt'));
+    const buf = fs.readFileSync(path.resolve('src/day3Input.txt'));
     return buf.toString().split('\n');
 }
 

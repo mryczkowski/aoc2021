@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 function readCommands() {
-    const buf = fs.readFileSync(path.resolve('src/day2/day2Input.txt'));
+    const buf = fs.readFileSync(path.resolve('src/day2Input.txt'));
     return buf.toString().split('\n').map((command) => {
         const parts = command.split(' ');
         return {
