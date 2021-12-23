@@ -70,7 +70,10 @@ function getBasinSize(heightMap, point, visitedPositions) {
     const row = point[0];
     const col = point[1];
 
-    if (row < 0 || col < 0 || row >= heightMap.length || col >= heightMap[row].length || heightMap[row][col] === 9 || visitedPositions[`${row}${col}`]) {
+    if (
+        row < 0 || col < 0 || row >= heightMap.length || col >= heightMap[row].length 
+        || heightMap[row][col] === 9 || visitedPositions[`${row}${col}`]
+    ) {
         return 0;
     }
 

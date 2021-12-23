@@ -1,3 +1,4 @@
+import day10 from './day10.js';
 import day2 from './day2.js';
 import day3 from './day3.js';
 import day6 from './day6.js';
@@ -17,7 +18,10 @@ function main() {
     // day7.part2();
     
     // day9.part1();
-    day9.part2();
+    // day9.part2();
+
+    day10.part1();
+    day10.part2();
 }
 
 main();
